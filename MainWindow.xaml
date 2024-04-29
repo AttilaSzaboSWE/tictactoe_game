@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tictactoe_game"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="TicTacToe Játék" Height="510" Width="590" ResizeMode="NoResize">
+    <Grid x:Name="TicTacToe" Margin="0,-4,0,4">
+        <Button x:Name="button1" Content="" HorizontalAlignment="Left" Height="100" Margin="42,102,0,0" VerticalAlignment="Top" Width="100" />
+        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Height="100" Margin="142,102,0,0" VerticalAlignment="Top" Width="100" />
+        <Button x:Name="button3" Content="" HorizontalAlignment="Left" Height="100" Margin="242,102,0,0" VerticalAlignment="Top" Width="100" />
+        <Button x:Name="button4" Content="" HorizontalAlignment="Left" Height="100" Margin="142,202,0,0" VerticalAlignment="Top" Width="100" />
+        <Button x:Name="button6" Content="" HorizontalAlignment="Left" Height="100" Margin="242,202,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="button7" Content="" HorizontalAlignment="Left" Height="100" Margin="42,302,0,0" VerticalAlignment="Top" Width="100" />
+        <Button x:Name="button8" Content="" HorizontalAlignment="Left" Height="100" Margin="142,302,0,0" VerticalAlignment="Top" Width="100" />
+        <Button x:Name="button9" Content="" HorizontalAlignment="Left" Height="100" Margin="242,302,0,0" VerticalAlignment="Top" Width="100" />
+        <Label Content="TicTacToe Game" HorizontalAlignment="Center" Height="36" Margin="0,34,0,0" VerticalAlignment="Top" Width="185" FontSize="22" FontWeight="Bold"/>
+        <Button x:Name="kilepes" Content="Kilépés" HorizontalAlignment="Left" Height="40" Margin="455,427,0,0" VerticalAlignment="Top" Width="110" Click="exit"/>
+        <Label x:Name="elsojatekos" Content="Első Játékos&#xD;&#xA;nyert meccsei:" HorizontalAlignment="Left" Height="55" Margin="424,168,0,0" VerticalAlignment="Top" Width="99" Foreground="#FF0056FF"/>
+        <Label x:Name="masodikjatekos" Content="Második játékos&#xD;&#xA;nyert meccsei:" HorizontalAlignment="Left" Height="56" Margin="424,296,0,0" VerticalAlignment="Top" Width="99" Foreground="#FFAB00FF"/>
+        <Label x:Name="eredmeny" Content="Eredmény:" HorizontalAlignment="Left" Height="27" Margin="434,102,0,0" VerticalAlignment="Top" Width="79" FontWeight="Bold"/>
+        <Button x:Name="button5" Content="" HorizontalAlignment="Left" Height="100" Margin="42,202,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="Ujgame" Content="Új játék" HorizontalAlignment="Left" Height="40" Margin="25,427,0,0" VerticalAlignment="Top" Width="110"/>
+        <Button x:Name="kovfordulo" Content="Következő forduló" HorizontalAlignment="Left" Height="40" Margin="242,427,0,0" VerticalAlignment="Top" Width="110"/>
+
     </Grid>
 </Window>
